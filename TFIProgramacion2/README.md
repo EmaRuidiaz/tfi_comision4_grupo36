@@ -40,8 +40,8 @@ Hemos elegido modelar la relación donde un **`DispositivoIoT` (A)** tiene asoci
 Para inicializar la base de datos y sus tablas, siga estos pasos:
 
 1.  Asegúrese de que su servidor MySQL esté en ejecución.
-2.  Ejecute el script **`database/DDL_Creacion_Tablas.sql`**. Este archivo contiene las sentencias `CREATE DATABASE` y `CREATE TABLE` con todas las restricciones de unicidad y claves foráneas necesarias para la relación 1:1.
-3.  Ejecute el script **`database/DML_Datos_Prueba.sql`**. Este archivo contiene sentencias `INSERT` para poblar las tablas con datos iniciales.
+2.  Ejecute el script **`config/DDL_Creacion_Tablas.sql`**. Este archivo contiene las sentencias `CREATE DATABASE` y `CREATE TABLE` con todas las restricciones de unicidad y claves foráneas necesarias para la relación 1:1.
+3.  Ejecute el script **`config/DML_Datos_Prueba.sql`**. Este archivo contiene sentencias `INSERT` para poblar las tablas con datos iniciales.
 
 ### 3. Compilación y Ejecución
 
@@ -68,8 +68,8 @@ La capa **Service** (específicamente `DispositivoIoTServiceImpl`) es responsabl
 
 ### 3. Entregables Adicionales
 
-* **Diagrama UML de Clases:** Ubicado en el repositorio como `UML_Clases.png`.
-* **Informe PDF:** Ubicado en el repositorio como `Informe_TFI.pdf`.
+* **Diagrama UML de Clases:** Ubicado en el repositorio dentro del informe y `UML_Clases.png`.
+* **Informe PDF:** Ubicado en el repositorio como `TFI - Programación 2.pdf`.
 
 ---
 
