@@ -4,10 +4,12 @@
  */
 package service;
 
-/**
- *
- * @author ema_r
- */
-public class GenericService {
-    
+import java.util.List;
+
+public interface GenericService<T> {
+    void save(T entidad) throws Exception;
+    T findById(long id) throws Exception;
+    List<T> findAll() throws Exception;
+    void update(T entidad) throws Exception;
+    void delete(long id) throws Exception;
 }

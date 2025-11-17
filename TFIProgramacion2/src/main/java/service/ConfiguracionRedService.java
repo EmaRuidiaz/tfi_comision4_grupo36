@@ -4,10 +4,8 @@
  */
 package service;
 
-/**
- *
- * @author ema_r
- */
-public class ConfiguracionRedService {
-    
+import entities.ConfiguracionRed;
+
+public interface ConfiguracionRedService extends GenericService<ConfiguracionRed> {
+    // Métodos específicos (si fueran necesarios)
 }
