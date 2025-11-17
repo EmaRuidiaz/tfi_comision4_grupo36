@@ -1,13 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package dao;
 
-/**
- *
- * @author ema_r
- */
-public class ConfiguracionRedDAO {
-    
+import entities.ConfiguracionRed;
+import java.sql.Connection;
+import java.sql.SQLException;
+
+
+public interface ConfiguracionRedDAO extends GenericDAO<ConfiguracionRed> {
+    ConfiguracionRed leerPorDispositivoId(long dispositivoId, Connection conn) throws SQLException;
 }
