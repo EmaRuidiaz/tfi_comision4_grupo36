@@ -4,10 +4,12 @@
  */
 package service;
 
-/**
- *
- * @author ema_r
- */
-public class DispositivoIoTService {
-    
+import entities.DispositivoIoT;
+
+public interface DispositivoIoTService extends GenericService<DispositivoIoT> {
+    // Operación clave que requiere transacción
+    void crearDispositivoConConfiguracion(DispositivoIoT dispositivo) throws Exception;
+    // Operación clave para eliminar (elimina A y B)
+    void eliminarDispositivoTx(long id) throws Exception;
+    void eliminarLogico(long id) throws Exception;
 }
