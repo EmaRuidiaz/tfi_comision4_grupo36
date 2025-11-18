@@ -46,7 +46,7 @@ Para inicializar la base de datos y sus tablas, siga estos pasos:
 ### 3. Compilación y Ejecución
 
 1.  Compile el proyecto en su IDE (Eclipse, NetBeans, IntelliJ).
-2.  Asegúrese de que las credenciales de conexión en **`config/DatabaseConnection.java`** coincidan con su configuración local de MySQL.
+2.  Asegúrese de que las credenciales de conexión en **`resources/database.properties`** coincidan con su configuración local de MySQL.
 3.  Ejecute la clase principal: **`main.Main.java`**.
 4.  Utilice el menú de consola (`main.AppMenu`) para realizar las operaciones CRUD.
 
@@ -68,8 +68,8 @@ La capa **Service** (específicamente `DispositivoIoTServiceImpl`) es responsabl
 
 ### 3. Entregables Adicionales
 
-* **Diagrama UML de Clases:** Ubicado en el repositorio dentro del informe y `UML_Clases.jpg`.
-* **Informe PDF:** Ubicado en el repositorio como `TFI - Programación 2.pdf`.
+* **Diagrama UML de Clases:** Ubicado en el repositorio dentro del informe y `TFIProgramacion2/src/main/java/UML_Clases.jpg`.
+* **Informe PDF:** Ubicado en el repositorio como `TFIProgramacion2/src/main/java/TFI - Programación 2.pdf`.
 
 ---
 
