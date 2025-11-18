@@ -46,7 +46,7 @@ Para inicializar la base de datos y sus tablas, siga estos pasos:
 ### 3. Compilación y Ejecución
 
 1.  Compile el proyecto en su IDE (Eclipse, NetBeans, IntelliJ).
-2.  Asegúrese de que las credenciales de conexión en **`config/DatabaseConnection.java`** coincidan con su configuración local de MySQL.
+2.  Asegúrese de que las credenciales de conexión en **`resources/database.properties`** coincidan con su configuración local de MySQL.
 3.  Ejecute la clase principal: **`main.Main.java`**.
 4.  Utilice el menú de consola (`main.AppMenu`) para realizar las operaciones CRUD.
 
