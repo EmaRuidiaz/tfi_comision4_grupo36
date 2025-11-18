@@ -68,8 +68,8 @@ La capa **Service** (específicamente `DispositivoIoTServiceImpl`) es responsabl
 
 ### 3. Entregables Adicionales
 
-* **Diagrama UML de Clases:** Ubicado en el repositorio dentro del informe y `UML_Clases.jpg`.
-* **Informe PDF:** Ubicado en el repositorio como `TFI - Programación 2.pdf`.
+* **Diagrama UML de Clases:** Ubicado en el repositorio dentro del informe y `TFIProgramacion2/src/main/java/UML_Clases.jpg`.
+* **Informe PDF:** Ubicado en el repositorio como `TFIProgramacion2/src/main/java/TFI - Programación 2.pdf`.
 
 ---
 
